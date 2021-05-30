@@ -35,13 +35,7 @@ sys.setdefaultencoding('utf-8')
 c = '\x1b[1;92m'
 c2 = '\x1b[0;97m'
 c3 = '\x1b[1;91m'
-logo = '
-\n\x1b[1;91m ___ooo____ooooooo_ooooooo_ooooooo____ooo____oo______
-\n\x1b[1;92m _oo___oo_______oo_oo___________oo__oo___oo__oo______
-\n\x1b[1;93m oo_____oo_____oo__oooo________oo__oo_____oo_oo______
-\n\x1b[1;94 mooooooooo____o____oo_________o____ooooooooo_oo______
-\n\x1b[1;95 moo_____oo__oo_____oo_______oo_____oo_____oo_oo______
-\n\x1b[1;96 moo_____oo_ooooooo_ooooooo_ooooooo_oo_____oo_ooooooo_
+logo = '     \n\x1b[1;91m ___ooo____ooooooo_ooooooo_ooooooo____ooo____oo______     \n\x1b[1;92m _oo___oo_______oo_oo___________oo__oo___oo__oo______      \n\x1b[1;93m oo_____oo_____oo__oooo________oo__oo_____oo_oo______    \n\x1b[1;94 mooooooooo____o____oo_________o____ooooooooo_oo______   \n\x1b[1;95 moo_____oo__oo_____oo_______oo_____oo_____oo_oo______   \n\x1b[1;96 moo_____oo_ooooooo_ooooooo_ooooooo_oo_____oo_ooooooo_ '
 
 def main():
     os.system('clear')
